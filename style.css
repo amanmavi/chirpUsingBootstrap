@@ -1,0 +1,47 @@
+/* .thumb-images img:nth-child(n + 2){
+    margin-left:-30px;
+} */
+.thumb-images img:not(:first-child) {
+  margin-left: -30px;
+}
+.modified {
+  width: 100%;
+}
+.page1 {
+  background-color: rgb(248, 238, 223);
+}
+.fa-face-grin-beam {
+  height: 16px;
+  width: 16px;
+}
+.page3 {
+  background-color: rgb(188, 238, 240);
+}
+.customer-box {
+  background-color: white;
+}
+.page4 {
+  background-color: rgb(235, 224, 198);
+}
+.btn {
+  background-color: rgb(0, 162, 255);
+}
+/* .page4 {
+  border-style: solid;
+  border-width: 1px;
+} */
+.footer {
+  background-color: rgb(127, 233, 236);
+}
+
+@media (min-width: 768px) {
+  .modified {
+    width: 30%;
+  }
+  .p1-last-text {
+    width: 55%;
+  }
+  .p2-top-text {
+    width: 50%;
+  }
+}
